@@ -1,0 +1,10 @@
+Method,Representation,Params,Silhouette,ARI
+DBSCAN,TF-IDF,"eps=0.15, ms=3",0.8219,1.0
+DBSCAN,LSA,"eps=0.15, ms=5",0.745,0.8373
+DBSCAN,N-gram,"eps=0.15, ms=3",0.6811,1.0
+K-Means,LSA,k=14,0.163,0.0412
+Hierarchical,LSA,"k=14, ward",0.1492,0.0816
+K-Means,TF-IDF,k=14,0.0868,0.0121
+Hierarchical,TF-IDF,"k=14, ward",0.0823,0.0434
+K-Means,N-gram,k=15,0.0701,0.0958
+Hierarchical,N-gram,"k=15, ward",0.0663,0.0709
